@@ -7,3 +7,7 @@ suite "orbit-span":
 
   test "short payloads unchanged":
     check clampBytes("a", 10) == "a"
+
+  test "ascii alias mirrors clamp semantics":
+    check takePrefixAscii("xyz", 2) == "xy"
+
