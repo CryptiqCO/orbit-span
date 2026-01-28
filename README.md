@@ -2,7 +2,7 @@
 
 **Nim helpers for byte-safe clamps** on streamed payloadsâ€”handy when rapid experiments truncate prompts before handing them to downstream agents.
 
-Keeps a single module plus nimble metadata so `nimble test` stays a one-liner on hobby laptops.
+Keeps a single module plus nimble metadata so `nimble test` stays a one-liner after iterative refactors.
 
 ## Signals
 
@@ -11,3 +11,4 @@ Treat clamps as lossyâ€”persist originals elsewhere whenever auditing depen
 ## Safety
 
 Never use these clamps for cryptographic slicingâ€”length mistakes become vulnerabilities quickly.
+
