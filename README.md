@@ -12,3 +12,5 @@ Treat clamps as lossyâ€”persist originals elsewhere whenever auditing depen
 
 Never use these clamps for cryptographic slicingâ€”length mistakes become vulnerabilities quickly.
 
+
+Release changelog reviews pair naturally with `nimble test` plus manual transcript passes.
