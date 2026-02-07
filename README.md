@@ -14,3 +14,5 @@ Never use these clamps for cryptographic slicingâ€”length mistakes become v
 
 
 Release changelog reviews pair naturally with `nimble test` plus manual transcript passes.
+
+See the [Nim manual](https://nim-lang.org/documentation.html) when tightening unittest suites further.
