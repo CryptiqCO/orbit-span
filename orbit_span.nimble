@@ -5,4 +5,6 @@ license       = "MIT"
 srcDir        = "src"
 
 requires "nim >= 1.6.0"
+bin           = @[]
+
 
